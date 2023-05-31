@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo {
+    width: 35px;
+    height: 35px;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.1%;
+    background: #F5F5F5;
+    height: 4vh;
+}
+
+.nav-list {
+    display: flex;
+    color: #6500E4;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-items {
+    margin: 10px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.sec-nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.1%;
+    height: 5.5vh;
+    background: #020024;
+    background: linear-gradient(90deg, #342A41 0%, #6500e4 100%);
+}
+
+.sec-nav-list {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.sec-nav-list ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.sec-nav-items {
+    margin: 25px;
+}
+
+.sec-nav-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+main {
+    text-align: center;
+}
+
+.logo-main {
+    margin-top: 35px;
+    width: 125px;
+    height: 125px;
+}
+
+.frase-bold {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: #222222;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.frase {
+    font-family: 'Poppins', sans-serif;
+    color: #525252;
+    margin-bottom: 20px;
+}
+
+.text-info {
+    width: 430px;
+    height: 51px;
+    border: none;
+    border-radius: 4px;
+    border-style: solid;
+    color: #E5E5E5;
+    margin-top: 20px;
+}
+
+::placeholder {
+    display: none;
+    font-size: 17px;
+    padding-left: 20px;
+}
+
+.separar-pais {
+    margin-top: 20px;
+}
+
+.checkmark {
+    margin-top: 20px;
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    border-radius: 4px;
+    background-color: #D2D2D2;
+}
