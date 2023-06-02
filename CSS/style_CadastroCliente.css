@@ -91,7 +91,7 @@ body::-webkit-scrollbar {
     display: flex;
     margin: auto;
     text-align: center;
-    height: 830px;
+    height: auto;
     width: 400px;
 }
 
@@ -234,6 +234,10 @@ input[type="checkbox"]:focus {
     font-weight: 400;
 }
 
+.terms u {
+    font-weight: 500;
+}
+
 .button-text {
     font-size: 15px;
     color: #ffffff;
@@ -304,8 +308,7 @@ button[type="submit"]:hover {
 }
 
 .circle-svg {
-    width: 3
-    5px;
+    width: 35px;
     height: 35px;
     border-radius: 50%;
     background-color: #ffffff;
