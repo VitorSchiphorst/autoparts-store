@@ -262,7 +262,6 @@ button[type="submit"] {
     border-radius: 4px;
     border-color: transparent;
     transition: 500ms;
-    box-shadow: 0 0 20px;
     background-image: linear-gradient(to right, #342A41 0%, #6500e4  51%, #342A41  100%);
     background-size: 200% auto;
     text-align: center;

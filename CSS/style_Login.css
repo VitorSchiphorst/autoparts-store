@@ -92,7 +92,7 @@ body::-webkit-scrollbar {
     margin: auto;
     text-align: center;
     height: auto;
-    width: 800px;
+    width: 700px;
 }
 
 .logo-main {
@@ -117,6 +117,7 @@ body::-webkit-scrollbar {
     border-style: solid;
     color: #E5E5E5;
     margin-top: 5px;
+    position: relative;
     margin-bottom: 6px;
     padding-left: 20px;
     border-color: currentColor;
@@ -147,7 +148,7 @@ body::-webkit-scrollbar {
     font-size: 14px;
     text-align: left;
     width: auto;
-    margin-right: 20%;
+    margin-right: 10%;
 }
 
 .forgot-password {
@@ -158,7 +159,6 @@ body::-webkit-scrollbar {
 input[type="checkbox"] {
     appearance: none;
     background-color: #ffffff;
-    font: inherit;
     color: #D2D2D2;
     width: 20px;
     height: 20px;
@@ -173,7 +173,7 @@ input[type="checkbox"]:before {
     appearance: none;
     content: "\2713";
     color: #525252;
-    position: absolute;
+    position: relative;
     top: -4px;
     left: 3.5px;
     width: 0.65em;
@@ -217,7 +217,6 @@ button[type="submit"] {
     border-radius: 4px;
     border-color: transparent;
     transition: 500ms;
-    box-shadow: 0 0 20px;
     background-image: linear-gradient(to right, #342A41 0%, #6500e4  51%, #342A41  100%);
     background-size: 200% auto;
     text-align: center;
