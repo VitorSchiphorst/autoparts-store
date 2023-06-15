@@ -245,9 +245,10 @@ body::-webkit-scrollbar {
 
 .box-main {
     display: flex;
-    margin: auto;
+    margin-top: 2%;
+    margin-left: 20%;
     height: auto;
-    width: 700px;
+    width: 360px;
 }
 
 .text-info {
@@ -265,6 +266,11 @@ body::-webkit-scrollbar {
     box-shadow: none;
 }
 
+.text-info:hover {
+    transition: 1.5s;
+    color: #525252;
+}
+
 .text-info:hover:focus {
     transition: 1.5s;
     color: #6500E4;
@@ -277,8 +283,8 @@ body::-webkit-scrollbar {
     border-color: #525252;
 }
 
-.btn-dropdown {
-    width: 350px;
+.text-info-met {
+    width: 152px;
     height: 38px;
     border: 1px;
     border-radius: 3px;
@@ -286,6 +292,37 @@ body::-webkit-scrollbar {
     color: #E5E5E5;
     margin-top: 5px;
     margin-bottom: 6px;
+    padding-left: 20px;
+    border-color: currentColor;
+    outline: 0;
+    box-shadow: none;
+}
+
+.text-info-met:hover {
+    transition: 1.5s;
+    color: #525252;
+}
+
+.text-info-met:hover:focus {
+    transition: 1.5s;
+    color: #6500E4;
+    border-color: #6500E4;
+}
+
+.text-info-met:not(:placeholder-shown) {
+    transition: 1.5s;
+    color: #525252;
+    border-color: #525252;
+}
+
+.btn-dropdown {
+    width: 174px;
+    height: 38px;
+    border: 1px;
+    border-radius: 3px;
+    border-style: solid;
+    color: #E5E5E5;
+    margin-top: 5px;
     text-align: left;
     padding-left: 20px;
     border-color: currentColor;
@@ -295,7 +332,6 @@ body::-webkit-scrollbar {
 }
 
 .btn-dropdown a {
-    margin-right: 275px;
     color: #525252;
 }
 
@@ -311,6 +347,12 @@ body::-webkit-scrollbar {
     display: inline-block;
 }
 
+.svg-arrow {
+    left: 62%;
+    bottom: 4%;
+    position: relative;
+}
+
 .write-bold {
     margin-top: 10%;
     font-weight: 800;
@@ -321,28 +363,25 @@ body::-webkit-scrollbar {
 
 .container {
     margin-top: 25px;
-    font-size: 9px;
+    font-size: 12px;
     display: flex;
     color: #525252;
     text-align: left;
-    place-content: center;
+    margin-left: 2%;
     gap: 10px;
-    height: center;
-    width: center;
 }
 
 input[type="checkbox"] {
     appearance: none;
     background-color: #ffffff;
     font: inherit;
-    color: #D2D2D2;
+    color: #6500E4;
     width: 20px;
     height: 20px;
     border: 1px solid currentColor;
     border-radius: 4px;
     transform: translateY(-0.075em);
     display: grid;
-    place-content: center;
 }
 
 input[type="checkbox"]:before {
@@ -350,8 +389,8 @@ input[type="checkbox"]:before {
     content: "\2713";
     color: #525252;
     position: absolute;
-    top: -1px;
-    left: 6px;
+    top: -3.7px;
+    left: 5px;
     width: 0.65em;
     height: 0.65em;
     transform: scale(0);
@@ -360,7 +399,7 @@ input[type="checkbox"]:before {
 }
 
 input[type="checkbox"]:checked::before {
-    transform: scale(2);
+    transform: scale(1.7);
 }
 
 input[type="checkbox"]:focus {
@@ -390,7 +429,7 @@ button[type="submit"] {
     height: 38px;
     width: 350px;
     margin-top: 20px;
-    border-radius: 4px;
+    border-radius: 20px;
     border-color: transparent;
     transition: 500ms;
     background-image: linear-gradient(to right, #342A41 0%, #6500e4  51%, #342A41  100%);
@@ -402,4 +441,12 @@ button[type="submit"] {
 button[type="submit"]:hover {
     transform: scale(1.1, 1.1);
     background-position: right center;
+}
+
+.info-contact {
+    list-style: none;
+    color: #525252;
+    font-size: 8px;
+    margin-left: 10px;
+    font-weight: 500;
 }
