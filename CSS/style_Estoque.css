@@ -18,7 +18,8 @@
     padding-top: 6.5%;
     padding-left: 28%;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 20px;
+    letter-spacing: 1px;
 }
 
 .logo {
@@ -26,7 +27,24 @@
     background-color: #ffff;
     position: absolute;
     left: 3%;
-    top: 3.5%;
+    top: 2%;
     width: 30px;
     height: 30px;
+}
+
+.menu-bar {
+    position: relative;
+    color: #ffff;
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 5%;
+    padding-right: ;
+    padding-top: 8%;
+    background: none;
+    border: none;
+}
+
+.img-bar {
+    position: ;
+    padding-left: 20%;
 }
