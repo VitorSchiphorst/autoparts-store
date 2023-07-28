@@ -20,6 +20,7 @@
     font-weight: 700;
     font-size: 20px;
     letter-spacing: 1px;
+    padding-bottom: 10%;
 }
 
 .logo {
@@ -33,18 +34,23 @@
 }
 
 .menu-bar {
-    position: relative;
     color: #ffff;
     font-size: 18px;
     font-weight: 500;
-    padding-left: 5%;
-    padding-right: ;
-    padding-top: 8%;
+    padding-top: 4%;
+    padding-bottom: 4%;
     background: none;
     border: none;
 }
 
 .img-bar {
-    position: ;
-    padding-left: 20%;
+    padding-left: 15%;
+    padding-right: 5%;
+}
+
+.button-menu:hover {
+    transition: 1s;
+
+    background-color: #ffff;
+    color: linear-gradient(to right, #342A41 0%, #6500e4 100%);
 }
