@@ -365,13 +365,13 @@ body::-webkit-scrollbar {
     margin-top: 25px;
     font-size: 12px;
     display: flex;
-    color: #525252;
+    color: #222222;
     text-align: left;
     margin-left: 2%;
     gap: 10px;
 }
 
-input[type="checkbox"] {
+.check {
     appearance: none;
     background-color: #ffffff;
     font: inherit;
@@ -384,7 +384,7 @@ input[type="checkbox"] {
     display: grid;
 }
 
-input[type="checkbox"]:before {
+.check:before {
     appearance: none;
     content: "\2713";
     color: #525252;
@@ -402,21 +402,48 @@ input[type="checkbox"]:checked::before {
     transform: scale(1.7);
 }
 
-input[type="checkbox"]:focus {
+.check:focus {
     outline: max(2px, 1px) solid currentColor;
     outline-offset: max(1px, 1px);
 }
 
-.terms {
-    font-size: 12px;
-    margin-top: 11px;
+.obs {
+    font-size: 8.5px;
+    margin-top: 1px;
     color: #525252;
     align-items: center;
+    margin-left: 15px;
     font-weight: 400;
+    margin-bottom: 7px;
 }
 
-.terms u {
+.obs u {
     font-weight: 500;
+}
+
+input[type="radio"] {
+    visibility: hidden;
+}
+
+input[type="radio"]:checked + .payment{
+    border-color: #6500E4;
+}
+
+.payment {
+    background-color: #ffffff;
+    width: 70px;
+    height: 49px;
+    border: 1px solid currentColor;
+    border-radius: 20px;
+    transform: translateY(-0.075em);
+    display: block;
+    border: 1px solid #525252;
+    float: left;
+}
+
+.image {
+    position: absolute;
+    
 }
 
 .button-text {

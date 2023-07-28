@@ -47,8 +47,7 @@
     <main>
         <div class="box-main">
             <div>
-                <ul class="write-bold">Informe seu Nome e Endereço:
-                </ul>
+                <ul class="write-bold">Informe seu Nome e Endereço:</ul>
                 <input placeholder="Primeiro Nome"class="text-info">
                 <input placeholder="Sobrenome" class="text-info">
                 <input placeholder="CEP" class="text-info">
@@ -60,21 +59,31 @@
                 </button>
                 <input placeholder="Rua" class="text-info-met">
                 <label class="container">
-                    <input type="checkbox">
-                    <span>Salve este endereço no meu perfil
-                    </span>
+                    <input type="checkbox" class="check">
+                    <span>Salve este endereço no meu perfil</span>
                 </label>
                 <label class="container">
-                    <input type="checkbox">
-                        <span>Tornar este meu endereço preferencial
-                        </span>
+                    <input type="checkbox" class="check">
+                    <span>Tornar este meu endereço preferencial</span>
                 </label>
-                <ul class="write-bold">Como podemos te contatar?
-                </ul>
+                <ul class="write-bold">Como podemos te contatar?</ul>
                 <input placeholder="Email"class="text-info">
-                <li class="info-contact">Um e-mail de confirmação será enviado após o checkout.</li>
+                <ul class="obs">Um e-mail de confirmação será enviado após o checkout.</ul>
                 <input placeholder="Número de Telefone" class="text-info">
-                <li class="info-contact">Uma transportadora pode entrar em contato com você para confirmar a<p>entrega.</p></li>
+                <ul class="obs">Uma transportadora pode entrar em contato com você para confirmar a <p>entrega.</p></ul>
+                <ul class="write-bold">Forma de Pagamento?</ul>
+                <form class="container">
+                    <input type="radio" id="p1">
+                    <label for="p1" class="payment"><img src="Img/Boleto.svg" class="image"></label>
+                    <input type="radio" id="p2">
+                    <label for="p2" class="payment"><img src="Img/Visa.svg" class="image"></label>
+                    <input type="radio" id="p3">
+                    <label for="p3" class="payment"><img src="Img/MasterCard.svg" class="image"></label>
+                    <input type="radio" id="p4">
+                    <label for="p4" class="payment"><img src="Img/Hipecard.svg" class="image"></label>
+                    <input type="radio" id="p5">
+                    <label for="p5" class="payment"><img src="Img/Pix.svg" class="image"></label>
+                </form>
                 <form>
                     <button type='submit'>
                         <span class="button-text">FINALIZAR COMPRA</span>
