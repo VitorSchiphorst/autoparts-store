@@ -19,39 +19,53 @@ body {
 .title {
     color: #ffff;
     padding-top: 6.5%;
-    padding-left: 28%;
     font-weight: 700;
     font-size: 20px;
     letter-spacing: 1px;
     padding-bottom: 10%;
+    text-align: center;
 }
 
 .logo {
     border-radius: 5px;
     position: absolute;
-    left: 3%;
-    top: 3%;
+    left: 2.5%;
+    top: 2.1%;
 }
 
-.menu-bar {
+ul {
+    list-style-type: none;
+}
+
+ul li.item-menu a {
     color: #ffff;
+    text-decoration: none;
     font-size: 18px;
-    font-weight: 500;
-    margin-top: 4%;
-    margin-bottom: 4%;
-    left: 20%;
-    text-align: left;
-    background: none;
-    border: none;
-    position: relative;
+    display: flex;
+    padding: 15px 10%;
 }
 
-.img-bar {
-    position: absolute;
-    top: 15%;
-    left: -50%;
+ul li.item-menu a .txt-menu {
+    margin-left: 20px;
 }
 
+ul li.item-menu:hover {
+    transition: 1s;
+    background-color: #ffff;
+    border-radius: 20px;
+    width: 280px;
+    margin-left: 8%;
+}
+
+ul li.item-menu a:hover {
+    color: #6500e4;
+}
+
+ul li.item-menu a .img-menu:hover {
+    background-color: #6500e4;
+    height: 10px;
+    width: 10px;
+}
 
 .user {
     height: 60px;
