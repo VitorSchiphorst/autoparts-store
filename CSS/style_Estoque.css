@@ -6,8 +6,11 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body {
+    height: 1920px;
+}
+
 .left-bar {
-    
     width: 280px;
     height: 100%;
     background: linear-gradient(to right, #342A41 0%, #6500e4 100%);
@@ -25,32 +28,66 @@
 
 .logo {
     border-radius: 5px;
-    background-color: #ffff;
     position: absolute;
     left: 3%;
-    top: 2%;
-    width: 30px;
-    height: 30px;
+    top: 3%;
 }
 
 .menu-bar {
     color: #ffff;
     font-size: 18px;
     font-weight: 500;
-    padding-top: 4%;
-    padding-bottom: 4%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    left: 20%;
+    text-align: left;
     background: none;
     border: none;
+    position: relative;
 }
 
 .img-bar {
-    padding-left: 15%;
-    padding-right: 5%;
+    position: absolute;
+    top: 15%;
+    left: -50%;
 }
 
-.button-menu:hover {
-    transition: 1s;
 
-    background-color: #ffff;
-    color: linear-gradient(to right, #342A41 0%, #6500e4 100%);
+.user {
+    height: 60px;
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.user_avatar {
+    margin-left: 3%;
+    position: relative;
+    top: 15%;
+}
+
+.username {
+    color: #ffff;
+    font-size: 15px;
+    text-align: left;
+    position: relative;
+    top: -60%;
+    margin-left: 20%;
+    font-weight: 400;
+}
+
+.user_email {
+    color: rgba(255, 255, 255, 0.377);
+    position: relative;
+    margin-top: -14%;
+    margin-left: 20%;
+    font-size: 10px;
+    font-weight: 200;
+}
+
+.user_back {
+    border: none;
+    position: relative;
+    bottom: 43%;
+    left: 88%;
+    cursor: pointer;
+    background: none;
 }
