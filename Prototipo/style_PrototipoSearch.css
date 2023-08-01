@@ -77,8 +77,8 @@ body::-webkit-scrollbar {
     height: 15px;
     border: transparent;
     background:
-        linear-gradient(45deg, transparent 0%,transparent 43%,#ffffff 45%,#ffffff 55%,transparent 57%,transparent 100%),
-        linear-gradient(135deg,transparent 0%,transparent 43%,#ffffff 45%,#ffffff 55%,transparent 57%,transparent 100%);
+        linear-gradient(45deg, transparent 0%,transparent 43%,#fff 45%,#fff 55%,transparent 57%,transparent 100%),
+        linear-gradient(135deg,transparent 0%,transparent 43%,#fff 45%,#fff 55%,transparent 57%,transparent 100%);
     opacity: 40%;
 }
 
