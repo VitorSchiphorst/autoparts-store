@@ -166,6 +166,7 @@ body::-webkit-scrollbar {
 }
 
 .text-info {
+    align-items: center;
     width: 500px;
     height: 38px;
     border: 1px;
@@ -192,10 +193,38 @@ body::-webkit-scrollbar {
     border-color: #525252;
 }
 
+.text-info-met {
+    display: block;
+    width: 237px;
+    height: 38px;
+    border: 1px;
+    border-radius: 3px;
+    border-style: solid;
+    color: #E5E5E5;
+    margin-top: 5px;
+    margin-bottom: 6px;
+    padding-left: 20px;
+    border-color: currentColor;
+    outline: 0;
+    box-shadow: none;
+      
+}
+
+.text-info-met:hover:focus {
+    transition: 1.5s;
+    color: #6500E4;
+    border-color: #6500E4;
+}
+
+.text-info-met:not(:placeholder-shown) {
+    transition: 1.5s;
+    color: #525252;
+    border-color: #525252;
+}
+
 .info {
     display: flex;
     column-count: 2;
-    column-gap: e;
     width: 100%;
 }
 
@@ -212,17 +241,47 @@ body::-webkit-scrollbar {
     text-align: left;
     font-size: 25px;
     font-weight: 600;
+    margin-left: 19.5%;
 }
 
 .address {
     margin: 2%;
     width: 50%;
     height: 100%;
-    text-align: center;
+}
+
+.address-text {
+    display: grid;
+    padding-bottom: 10px;
+    text-align: left;
+    font-size: 25px;
+    font-weight: 600;
 }
 
 .formatt {
-    text-align: center;
-    width: 50%;
     height: 100%;
+}
+
+.button-text {
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 300;
+}
+
+button[type="submit"] {
+    height: 38px;
+    width: 350px;
+    margin-top: 20px;
+    border-radius: 4px;
+    border-color: transparent;
+    transition: 500ms;
+    background-image: linear-gradient(to right, #342A41 0%, #6500e4  51%, #342A41  100%);
+    background-size: 200% auto;
+    text-align: center;
+}
+ 
+
+button[type="submit"]:hover {
+    transform: scale(1.1, 1.1);
+    background-position: right center;
 }

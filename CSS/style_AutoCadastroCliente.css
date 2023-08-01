@@ -156,7 +156,6 @@ body::-webkit-scrollbar {
     border-color: currentColor;
     outline: 0;
     box-shadow: none;
-   
 }
 
 .text-info-met:hover:focus {
