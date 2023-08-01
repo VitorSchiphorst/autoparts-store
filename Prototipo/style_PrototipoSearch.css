@@ -70,6 +70,16 @@ body::-webkit-scrollbar {
 
 .search::-webkit-search-cancel-button {
     -webkit-appearance: none;
+    display: inline-block;
+    position: relative;
+    right: 2%;
+    width: 15px;
+    height: 15px;
+    border: transparent;
+    background:
+        linear-gradient(45deg, transparent 0%,transparent 43%,#ffffff 45%,#ffffff 55%,transparent 57%,transparent 100%),
+        linear-gradient(135deg,transparent 0%,transparent 43%,#ffffff 45%,#ffffff 55%,transparent 57%,transparent 100%);
+    opacity: 40%;
 }
 
 ::placeholder {
@@ -87,16 +97,6 @@ body::-webkit-scrollbar {
     right: 71%;
     height: 18px;
     bottom: 4px;
-}
-
-.search-close {
-    position: relative;
-    right: 89%;
-    bottom: 3px;
-    border: none;
-    background: transparent;
-    outline: none;
-    cursor: pointer;
 }
 
 .kart-favorite {
