@@ -135,7 +135,6 @@ body::-webkit-scrollbar {
     justify-content: space-between;
     padding: 0.1%;
     height: 74px;
-    background: linear-gradient(to right, #342A41 0%, #6500e4 100%);
 }
 
 .sec-nav-list {

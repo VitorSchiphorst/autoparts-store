@@ -7,94 +7,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AutoParts Store</title>
     <link rel="stylesheet" href="style_Prototipo.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-        <nav class="nav-bar">
-            <div>
-                <img src="Img/Logo.png" class="logo" alt="Logo AutoParts">
+      <nav class="navbar navbar-color bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="Img/Logo.png" alt="" class="logo"> AutoParts Store</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end text-bg-purple" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
-            <div class="nav-list">
-                <ul>
-                    <li class="nav-items"><a class="nav-link" href="/">Ajuda</a></li>
-                    <li class="nav-items"><a class="nav-link" href="/">|</a></li>
-                    <li class="nav-items"><a class="nav-link" href="/">Entrar</a></li>
-                    <li class="nav-items"><a class="nav-link" href="/">|</a></li>
-                    <li class="nav-items"><a class="nav-link" href="/">Cadastre-se</a></li>
-                </ul>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex mt-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-success" type="submit">Search</button>
+              </form>
             </div>
-        </nav>
-        <nav class="sec-nav-bar">
-            <div class="sec-nav-list">
-                <ul>
-                    <li class="sec-nav-items"><a class="sec-nav-link" href="/">Confiabilidade</a></li>
-                    <li class="sec-nav-items"><a class="sec-nav-link" href="/">Segurança</a></li>
-                    <li class="sec-nav-items"><a class="sec-nav-link" href="/">Agilidade</a></li>
-                    <li class="sec-nav-items"><a class="sec-nav-link" href="/">Experiência</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-    <main>
-
-
-
-
-
-
-
-
-        
-    </main>
-    <footer>
-        <div class="footer-nav">
-            <div class="separe-columns">
-                <ul class="footer-list">
-                    <div>
-                        <li class="footer-text">A durabilidade que você precisa e a <p class="separe-row">confiança que você merece</p></li>
-                        <li class="footer-text"><p class="separe-row">@autoparts.com</p></li>
-                    </div>
-                </ul>
-            </div>
-            <div class="separe-columns">
-                <ul class="footer-list">
-                    <div>
-                        <li class="footer-text-sec">Sobre nós</li>
-                        <li class="footer-text"><p class="separe-row">Política de privacidade </p>
-                            <p class="separe-row">Institucional</p>
-                            <p class="separe-row">Carreira</p>
-                            <p class="separe-row">Trabalhe conosco</p>
-                        </li>
-                    </div>
-                </ul>
-            </div>
-            <div class="separe-columns">
-                <ul class="footer-list">
-                    <div>
-                        <li class="footer-text-sec"><p class="separe-row-contat">Contate-nos</p></li>
-                        <li class="footer-text">Atendimento das 7h às 22h, de segunda
-                            <p>a sexta e das 8h às 20h
-                            <p class="separe-row">sábados, domingos e feriados.</p>
-                            <p class="separe-row">SAC <u>0800 647 2200</u></p>
-                        </li>
-                    </div>
-                </ul>
-            </div>
-            <div class="separe-columns">
-                <ul class="footer-list">
-                    <div>
-                        <li class="footer-text-sec">
-                            <button class="circle-svg"><img src="Img/Facebook.svg"></button>
-                            <button class="circle-svg"><img src="Img/Instagram.svg"></button>
-                            <button class="circle-svg"><img src="Img/Twitter.svg"></button>
-                            <button class="circle-svg"><img src="Img/Linkedin.svg"></button>                            
-                        </li>   
-                    </div>
-                </ul>
-            </div>
-            <li class="row"></li>
-            <li class="copyright">Copyright ® 2023 AutoParts Todos os direitos reservados</li>
+          </div>
         </div>
-    </footer>
+      </nav>
+    </header>
 </body>
 </html>
